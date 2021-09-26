@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Документ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="block">
+    <h1>Трансакционный спрос</h1>
+    <p>Количество денежных средств необходимых для обслуживания всех видов сделок в экономике</p>
+    <ul class="marker">
+        <li>P - уровень цен</li>
+        <li>Y - физический объем ВВП</li>
+        <li>V - скорость обращения денег</li>
+    </ul>
+    <label for="p">P: </label><input type="number" id = "p" ><br>
+    <label for="y">Y: </label><input type="number" id = "y" ><br>
+    <label for="v">V: </label><input type="number" id = "v"><br>
+    <button id ="send">Вычислить</button>
+    <h3>Результат:</h3><p class="result" id="result"></p>
+    <script src = "js.js"></script>
+</div>
+</body>
+</html>
